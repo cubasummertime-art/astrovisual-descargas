@@ -52,6 +52,16 @@ summary{cursor:pointer;font-weight:600}
 details p{color:var(--mut);margin:10px 0 0}
 footer{border-top:1px solid var(--line);padding:28px 0;color:var(--mut);font-size:13px;text-align:center}
 @media(max-width:760px){.two{grid-template-columns:1fr}nav{display:none}}
+.aviso{max-width:720px;margin:18px auto 0;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.aviso h3{margin:0 0 4px;font-size:16px;color:var(--gold)}
+.aviso>p{margin:0 0 12px;color:var(--mut);font-size:14.5px}
+.pasos{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.win{background:#0f3a73;color:#fff;border-radius:6px;padding:14px;font:13px/1.4 "Segoe UI",system-ui,sans-serif}
+.win b{display:block;font-size:15px;margin-bottom:6px}
+.win .lnk{display:inline-block;margin-top:8px;text-decoration:underline;font-weight:600;outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+.win .bt{display:inline-block;margin-top:10px;background:#fff;color:#0f3a73;padding:5px 12px;font-weight:600;outline:2px solid var(--gold);outline-offset:3px}
+.pasos .t{font-size:13px;color:var(--mut);margin:6px 2px 0}
+@media(max-width:640px){.pasos{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -65,6 +75,9 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--mut);font-siz
 <p class="lead">Viaja por el tiempo, mira los tránsitos moverse sobre la carta natal y explícalo con una rueda clara, bella y exacta. Hecho para astrólogos que enseñan en YouTube y en vivo.</p>
 <div class="cta"><a class="btn" href="https://github.com/cubasummertime-art/astrovisual-descargas/releases/latest/download/AstroVisual-Setup.exe">Descargar y probar 14 días gratis</a><a class="btn ghost" href="#precio">Ver precio</a></div>
 <p class="small">Para Windows 10 y 11 · sin tarjeta para la prueba · pago único, sin suscripción</p>
+<div class="aviso"><h3>Al abrir el instalador, Windows mostrará un aviso azul. Es normal.</h3><p>Aparece con cualquier programa nuevo de un autor independiente. No significa que tenga un problema: solo hay que dar dos clics.</p>
+<div class="pasos"><div><div class="win"><b>Windows protegió su PC</b>Microsoft Defender SmartScreen impidió el inicio de una aplicación no reconocida.<br><span class="lnk">Más información</span></div><div class="t"><b>1.</b> Pulsa «Más información».</div></div>
+<div><div class="win"><b>Windows protegió su PC</b>Aplicación: AstroVisual-Setup.exe<br><span class="bt">Ejecutar de todos modos</span></div><div class="t"><b>2.</b> Pulsa «Ejecutar de todos modos».</div></div></div></div>
 <div class="shot"><video src="video.mp4" poster="img/poster.jpg" controls playsinline preload="metadata" width="1280" height="720" style="display:block;width:100%;height:auto;background:#000"></video></div>
 <p class="small">Mira en 45 segundos cómo se usa</p>
 </div></div>
