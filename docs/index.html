@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AstroVisual · Astrología en 3D para astrólogos y creadores de video</title>
+<meta name="description" content="AstroVisual: la rueda astrológica en 3D con efemérides de la NASA para astrólogos que hacen videos de predicción. Tránsitos, progresiones, sinastría, retornos y más. Prueba 14 días gratis.">
+<meta property="og:title" content="AstroVisual · Astrología en 3D">
+<meta property="og:description" content="Rueda astrológica en 3D, efemérides NASA JPL DE440, tres fondos, técnicas completas. Prueba gratis 14 días.">
+<meta property="og:image" content="img/rueda-noche.jpg">
+<style>
+:root{--bg:#070a14;--bg2:#0d1222;--card:#111833;--line:#232c4d;--fg:#eef0f7;--mut:#9aa4c0;--gold:#e8c36a;--btn:#e8c36a;--btnfg:#1a1405}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--gold)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;background:rgba(7,10,20,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:5}
+header .wrap{display:flex;align-items:center;gap:16px;height:58px}
+.logo{font-weight:700;letter-spacing:.2em;color:var(--gold);text-decoration:none}
+nav{margin-left:auto;display:flex;gap:18px;font-size:14px}
+nav a{color:var(--mut);text-decoration:none}
+.btn{display:inline-block;background:var(--btn);color:var(--btnfg);font-weight:700;padding:13px 26px;border-radius:999px;text-decoration:none;border:0}
+.btn.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}
+.hero{padding:64px 0 28px;text-align:center}
+h1{font-size:clamp(32px,6vw,56px);line-height:1.1;margin:0 0 16px}
+h1 em{font-style:normal;color:var(--gold)}
+.lead{max-width:680px;margin:0 auto 26px;color:var(--mut);font-size:18px}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.small{color:var(--mut);font-size:13px;margin-top:12px}
+.shot{margin:36px auto 0;max-width:1080px;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.shot img{display:block;width:100%;height:auto}
+section{padding:56px 0}
+section h2{font-size:clamp(24px,4vw,34px);margin:0 0 8px}
+section .sub{color:var(--mut);margin:0 0 28px;max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c,var(--gold));border-radius:12px;padding:16px 18px}
+.card h3{margin:0 0 4px;font-size:16px;color:var(--c,var(--gold))}
+.card p{margin:0;color:var(--mut);font-size:14.5px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.two img{width:100%;border-radius:12px;border:1px solid var(--line)}
+.alt{background:var(--bg2)}
+.price{max-width:460px;margin:0 auto;text-align:center;background:var(--card);border:1px solid var(--gold);border-radius:18px;padding:32px 26px}
+.price .n{font-size:56px;font-weight:800;line-height:1}
+.price .n small{font-size:18px;font-weight:500;color:var(--mut)}
+.price s{color:var(--mut)}
+.price ul{list-style:none;padding:0;margin:20px 0;text-align:left}
+.price li{padding:5px 0 5px 26px;position:relative}
+.price li:before{content:"✓";position:absolute;left:0;color:var(--gold)}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:10px 0}
+summary{cursor:pointer;font-weight:600}
+details p{color:var(--mut);margin:10px 0 0}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--mut);font-size:13px;text-align:center}
+@media(max-width:760px){.two{grid-template-columns:1fr}nav{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="#">✦ ASTROVISUAL</a>
+<nav><a href="#funciones">Funciones</a><a href="#precision">Precisión</a><a href="#precio">Precio</a><a href="#faq">Preguntas</a></nav>
+<a class="btn" href="#precio" style="padding:8px 18px;font-size:14px">Probar gratis</a></div></header>
+
+<main>
+<div class="hero"><div class="wrap">
+<h1>La rueda astrológica <em>en 3D</em><br>para tus videos de predicción</h1>
+<p class="lead">Viaja por el tiempo, mira los tránsitos moverse sobre la carta natal y explícalo con una rueda clara, bella y exacta. Hecho para astrólogos que enseñan en YouTube y en vivo.</p>
+<div class="cta"><a class="btn" href="https://github.com/cubasummertime-art/astrovisual-descargas/releases/latest">Descargar y probar 14 días gratis</a><a class="btn ghost" href="#precio">Ver precio</a></div>
+<p class="small">Para Windows 10 y 11 · sin tarjeta para la prueba · pago único, sin suscripción</p>
+<div class="shot"><img src="img/rueda-noche.jpg" alt="AstroVisual mostrando una progresión secundaria sobre la carta natal" width="1600" height="900"></div>
+</div></div>
+
+<section id="funciones"><div class="wrap">
+<h2>Todo lo que usa un astrólogo, en una sola rueda</h2>
+<p class="sub">Cada técnica tiene su propio color, así tus espectadores entienden de un vistazo qué estás mostrando.</p>
+<div class="grid">
+<div class="card" style="--c:#aab4cc"><h3>Tránsitos</h3><p>El cielo de cualquier fecha y hora sobre la carta natal de tu cliente, con aspectos aplicativos y separativos.</p></div>
+<div class="card" style="--c:#2ed3c0"><h3>Progresiones secundarias</h3><p>Un día por año, calculado al instante para la fecha que elijas.</p></div>
+<div class="card" style="--c:#ff8a3d"><h3>Arco solar</h3><p>Todos los puntos natales avanzan con el Sol progresado.</p></div>
+<div class="card" style="--c:#ff5fa8"><h3>Sinastría</h3><p>Dos cartas, una sobre otra, con la lista de aspectos entre ambas.</p></div>
+<div class="card" style="--c:#b27bff"><h3>Carta compuesta</h3><p>La carta de la relación por puntos medios.</p></div>
+<div class="card" style="--c:#d6e63c"><h3>Armónicos</h3><p>Cualquier armónico, del 2 al 144, con atajos al 5, 7, 9 y 12.</p></div>
+<div class="card" style="--c:#55e07a"><h3>Retornos</h3><p>Salta al instante exacto del retorno de Sol, Luna, Mercurio, Venus, Marte, Júpiter o Saturno.</p></div>
+<div class="card" style="--c:#8a74ff"><h3>Profecciones</h3><p>Señor del año y del mes, con la casa y el signo activados.</p></div>
+<div class="card" style="--c:#3cb8ff"><h3>Puntos medios</h3><p>Dial de 90° con los puntos medios activados.</p></div>
+<div class="card" style="--c:#d9a066"><h3>Partes árabes</h3><p>Doce partes clásicas con su fórmula, diurnas y nocturnas.</p></div>
+<div class="card" style="--c:#9be3ff"><h3>Paralelos y contraparalelos</h3><p>Aspectos de declinación con orbe de 1°.</p></div>
+<div class="card" style="--c:#e8c36a"><h3>Resumen de la carta</h3><p>Elementos, modalidades, hemisferios, dignidades y planetas dominantes.</p></div>
+</div>
+</div></section>
+
+<section class="alt"><div class="wrap two">
+<div><h2>Pensado para grabar y presentar</h2>
+<p class="sub" style="margin-bottom:14px">Gira la rueda con libertad en cualquier dirección, abre la rueda sola en otra ventana para compartir pantalla, usa el puntero láser y el modo presentación. Exporta imagen o PDF con fecha y tabla de aspectos. Modo privacidad para ocultar el nombre del cliente.</p>
+<p class="sub">Tres fondos a elegir: noche, blanco o azul celeste. Las letras, líneas y planetas se ajustan para verse nítidos en cada uno.</p></div>
+<img src="img/arco-blanco.jpg" alt="Fondo blanco con arco solar" loading="lazy">
+</div></section>
+
+<section><div class="wrap two">
+<img src="img/sinastria.jpg" alt="Sinastría entre dos cartas" loading="lazy">
+<div><h2>Sinastría y resumen en el mismo panel</h2>
+<p class="sub" style="margin-bottom:14px">Elige a la otra persona entre tus cartas guardadas y ve los aspectos entre las dos cartas, con orbes. En la pestaña «Resumen» tienes elementos, modalidades y dignidades con colores propios.</p>
+<img src="img/resumen-celeste.jpg" alt="Resumen de la carta en fondo azul celeste" loading="lazy"></div>
+</div></section>
+
+<section id="precision" class="alt"><div class="wrap">
+<h2>Exactitud que puedes comprobar</h2>
+<p class="sub">AstroVisual calcula con las efemérides JPL DE440 de la NASA, las mismas que usan los observatorios. Comparamos 602 fechas entre 1900 y 2100 con una referencia astrológica profesional: los planetas coinciden por debajo de 3 segundos de arco, y el Ascendente y las casas por debajo de 4 segundos. Los nodos y Lilith verdaderos son puntos calculados con distintos modelos; ahí puede haber diferencias de hasta unos minutos de arco entre programas, y es normal.</p>
+<div class="grid">
+<div class="card"><h3>Planetas</h3><p>Por debajo de 3″ frente a la referencia (Sol, Mercurio a Plutón menos de 1″ en la mayoría).</p></div>
+<div class="card"><h3>Casas y ángulos</h3><p>Placidus, Koch, Regiomontanus, signos enteros y más. Ascendente y MC con precisión de segundos.</p></div>
+<div class="card"><h3>Zodiaco</h3><p>Tropical y sidéreo (Lahiri, Fagan-Bradley, Raman, KP), y vista heliocéntrica.</p></div>
+</div>
+</div></section>
+
+<section id="precio"><div class="wrap">
+<h2 style="text-align:center">Un solo pago. Sin suscripción.</h2>
+<p class="sub" style="text-align:center;margin-left:auto;margin-right:auto">Prueba 14 días con todo activado. Si te gusta, activas tu licencia con la clave que llega a tu correo.</p>
+<div class="price">
+<div class="small" style="margin:0 0 6px">Precio de lanzamiento</div>
+<div class="n">39 <small>USD</small></div>
+<div><s>49 USD</s> después del lanzamiento</div>
+<ul><li>Licencia de por vida, sin caducidad</li><li>Actualizaciones incluidas</li><li>Hasta 2 equipos con la misma clave</li><li>Todas las técnicas y los 3 fondos</li><li>Pago seguro con tarjeta</li></ul>
+<a class="btn" style="display:block" href="https://checkout.dodopayments.com/buy/pdt_0NsDU0YuEvD5yIZzQPnOr?quantity=1">Comprar la licencia</a>
+<p class="small"><a href="https://github.com/cubasummertime-art/astrovisual-descargas/releases/latest">Descargar la prueba de 14 días</a></p>
+</div>
+</div></section>
+
+<section id="faq" class="alt"><div class="wrap">
+<h2>Preguntas frecuentes</h2>
+<details><summary>¿Windows me muestra un aviso azul al instalar?</summary><p>Sí, es normal en programas nuevos de autores independientes. Pulsa «Más información» y luego «Ejecutar de todos modos». El aviso aparece porque el instalador aún no tiene la firma de pago de Microsoft, no porque tenga algún problema. El código no contiene anuncios ni recopila datos de tus clientes.</p></details>
+<details><summary>¿Las cartas de mis clientes se envían a internet?</summary><p>No. Las cartas natales se guardan solo en tu equipo. Las efemérides necesarias se descargan una vez por siglo y se guardan en tu equipo.</p></details>
+<details><summary>¿Necesito internet?</summary><p>Para activar la licencia y descargar siglos de efemérides que aún no tengas. El resto funciona sin conexión.</p></details>
+<details><summary>¿Hay versión para Mac o móvil?</summary><p>Por ahora solo Windows 10 y 11.</p></details>
+<details><summary>¿Cuántos equipos puedo usar?</summary><p>Dos equipos con la misma clave. Puedes liberar uno desde el programa para pasar la licencia a otro.</p></details>
+<details><summary>¿Y si no me convence?</summary><p>Tienes 14 días de prueba con todas las funciones antes de pagar.</p></details>
+<details><summary>¿Puedo usarlo en mis videos de YouTube?</summary><p>Sí. Las imágenes y grabaciones que hagas con el programa son tuyas.</p></details>
+</div></section>
+</main>
+<footer><div class="wrap">© AstroVisual · Efemérides: NASA/JPL DE440 · Pagos procesados por Dodo Payments</div></footer>
+</body>
+</html>
